@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/iobt-client-canvas/static/css/main.46518aad.chunk.css",
-    "main.js": "/iobt-client-canvas/static/js/main.baf1f116.chunk.js",
-    "main.js.map": "/iobt-client-canvas/static/js/main.baf1f116.chunk.js.map",
+    "main.js": "/iobt-client-canvas/static/js/main.bb4b68dd.chunk.js",
+    "main.js.map": "/iobt-client-canvas/static/js/main.bb4b68dd.chunk.js.map",
     "runtime-main.js": "/iobt-client-canvas/static/js/runtime-main.881584fd.js",
     "runtime-main.js.map": "/iobt-client-canvas/static/js/runtime-main.881584fd.js.map",
     "static/css/2.97503911.chunk.css": "/iobt-client-canvas/static/css/2.97503911.chunk.css",
@@ -11,13 +11,19 @@
     "index.html": "/iobt-client-canvas/index.html",
     "static/css/2.97503911.chunk.css.map": "/iobt-client-canvas/static/css/2.97503911.chunk.css.map",
     "static/css/main.46518aad.chunk.css.map": "/iobt-client-canvas/static/css/main.46518aad.chunk.css.map",
-    "static/js/2.abf4c18a.chunk.js.LICENSE.txt": "/iobt-client-canvas/static/js/2.abf4c18a.chunk.js.LICENSE.txt"
+    "static/js/2.abf4c18a.chunk.js.LICENSE.txt": "/iobt-client-canvas/static/js/2.abf4c18a.chunk.js.LICENSE.txt",
+    "static/media/air-force-logo.94550adb.jpg": "/iobt-client-canvas/static/media/air-force-logo.94550adb.jpg",
+    "static/media/faa-logo.d12ad911.png": "/iobt-client-canvas/static/media/faa-logo.d12ad911.png",
+    "static/media/marines-logo.059ab0c3.png": "/iobt-client-canvas/static/media/marines-logo.059ab0c3.png",
+    "static/media/nasa-logo.c6d44475.png": "/iobt-client-canvas/static/media/nasa-logo.c6d44475.png",
+    "static/media/space-force-logo.a89f540a.png": "/iobt-client-canvas/static/media/space-force-logo.a89f540a.png",
+    "static/media/theatre-floor-plan.745fed31.png": "/iobt-client-canvas/static/media/theatre-floor-plan.745fed31.png"
   },
   "entrypoints": [
     "static/js/runtime-main.881584fd.js",
     "static/css/2.97503911.chunk.css",
     "static/js/2.abf4c18a.chunk.js",
     "static/css/main.46518aad.chunk.css",
-    "static/js/main.baf1f116.chunk.js"
+    "static/js/main.bb4b68dd.chunk.js"
   ]
 }
