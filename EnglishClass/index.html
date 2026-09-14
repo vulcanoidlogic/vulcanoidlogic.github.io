@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EnglishClass</title>
+    <base href="/EnglishClass/" />
+    <link href="_framework/dotnet.pazu9ki001.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-Mac0O7kAKKgcD2/jW94wcGkMHVzGJ1m5MGlsaLbsBHY=" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="EnglishClass.styles.css" rel="stylesheet" />
+    <script type="importmap">{
+  "imports": {
+    "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.w3qd1tpl0e.js",
+    "./_framework/dotnet.native.js": "./_framework/dotnet.native.020r7jjcr5.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.pazu9ki001.js",
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.zbexyp8zrs.js"
+  },
+  "scopes": {},
+  "integrity": {
+    "./_framework/blazor.webassembly.js": "sha256-lDXsDYFgm62F+YUvxES7IOTCXYpiHpU3uR45YdC6mq4=",
+    "./_framework/blazor.webassembly.w3qd1tpl0e.js": "sha256-lDXsDYFgm62F+YUvxES7IOTCXYpiHpU3uR45YdC6mq4=",
+    "./_framework/dotnet.js": "sha256-Mac0O7kAKKgcD2/jW94wcGkMHVzGJ1m5MGlsaLbsBHY=",
+    "./_framework/dotnet.native.020r7jjcr5.js": "sha256-CPyIwqI4Wkl/JrAL4KMmwosT7pskNJovtURZ03tQS1U=",
+    "./_framework/dotnet.native.js": "sha256-CPyIwqI4Wkl/JrAL4KMmwosT7pskNJovtURZ03tQS1U=",
+    "./_framework/dotnet.pazu9ki001.js": "sha256-Mac0O7kAKKgcD2/jW94wcGkMHVzGJ1m5MGlsaLbsBHY=",
+    "./_framework/dotnet.runtime.js": "sha256-MZMguyke9CroSQl+L/SHIGFkPTD+LtYGXkXjAvwWx40=",
+    "./_framework/dotnet.runtime.zbexyp8zrs.js": "sha256-MZMguyke9CroSQl+L/SHIGFkPTD+LtYGXkXjAvwWx40="
+  }
+}</script>
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.w3qd1tpl0e.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.min.js"></script>
+    <script>
+        // Restore path from 404 redirect (for GitHub Pages SPA routing)
+        (function () {
+            var path = window.location.search;
+            if (path) {
+                path = path.replace(/[?&]/g, function (c) {
+                    return c === '?' ? '/' : '&';
+                }).replace(/~and~/g, '&');
+                // Remove the leading "?/" that the 404.html adds
+                path = path.replace(/^\?\/?/, '/');
+                var current = window.location.pathname;
+                if (current.endsWith('/')) current = current.slice(0, -1);
+                history.replaceState(null, '', current + path + window.location.hash);
+            }
+        })();
+    </script>
+</body>
+
+</html>
